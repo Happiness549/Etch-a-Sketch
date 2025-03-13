@@ -1,5 +1,6 @@
 const container = document.querySelector("#container");
 
+
 function getRandomColor () {
     const letters = "0123456789ABCDEF";
     let color = "#";
@@ -10,6 +11,7 @@ function getRandomColor () {
         }
         return color;
     }
+
      for (let i = 0; i< 16 * 16; i++) {
         
     const div = document.createElement("div");
